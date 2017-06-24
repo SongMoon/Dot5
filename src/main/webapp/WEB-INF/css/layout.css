@@ -1,0 +1,159 @@
+@CHARSET "EUC-KR";
+
+body {
+	font: 14px;
+}
+
+.frame {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 40px 10px;
+	text-align: center;
+	background-color: #5e3c58;
+}
+
+.logo {
+	font-size: 2em;
+	font-weight: bold;
+	display: inline-block;
+	padding: 0 8px;
+	color: #ffffff;
+}
+
+.logo_img {
+	
+	width: 25px;
+	height: 25px;
+	margin-left: 20px;
+	
+}
+
+.container {
+	overflow: hidden;
+	background-color: #c7bbc9
+}
+
+.menu {
+	float: left;
+	width: 250px;
+	background-color: #eeeaee;
+	margin-right: 50px;
+	height: 800px;
+	
+}
+
+.list {
+	
+	list-style: none;
+	margin: 0;
+	padding: 20px;
+	
+}
+
+.list_item{
+	margin:  4px 0;
+	padding-top: 10px;
+
+}
+.content {
+	float: right;
+	width: 600px;
+	padding-top: 20px;
+}
+
+.footer {
+	width: 150px;
+	height: 100px;
+}
+
+.table {
+	padding: 30px;
+}
+.tab {
+	
+	padding: 10px;
+	background-color: #382434;
+	
+}
+.table_img_task {
+	width: 40px;
+	height: 40px;
+}
+.table_img_card {
+	width: 40px;
+	height: 40px;
+}
+.table_img_join {
+	width: 40px;
+	height: 40px;
+}
+.table_img_setting {
+	width: 40px;
+	height: 40px;
+}
+.table_task {
+	
+	padding-left: 30px;
+}
+
+.table_card {
+	padding-left: 210px;
+	
+}
+.table_join {
+	padding-left: 210px;
+}
+
+.table_setting {
+	padding-left: 210px;
+	padding-right: 30px;
+}
+
+.join_table {
+	margin-top: 100px;
+	margin-left: 40px;
+}
+
+.table_task_word
+{
+	color:white;
+	display:none;
+}
+.description {
+    display:none;
+    position:absolute;
+    top:100px;
+    border:1px solid #000;
+    width:400px;
+    height:400px;
+}
+
+
+
+.logo > a{
+	text-decoration: none;
+	color: white;
+}
+.list_item > a {
+	text-decoration: none;
+}
+
+.add_task {
+	width: 350px;
+	height: 25px;
+}
+.add_task_date{
+	width: 150px;
+	height: 25px;
+}
+.add_task_btn {
+	height: 30px;
+}
+
+.task_list {
+	background-color: white;
+	width: 550px;
+}

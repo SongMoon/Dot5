@@ -1,0 +1,74 @@
+@CHARSET "EUC-KR";
+
+
+    .header
+    {	width:100%%;height:10%;margin-left:auto; margin-right:auto;
+        position:absolute;
+       	top:0px;
+        left:0px;
+        right:0px;
+        background-color:#5e3c58;
+        
+        color:white;
+        font-weight:600;
+        text-align:center;
+        font-size:35px;
+    }
+    .container
+    {
+        position:absolute;
+        margin-top:10%;
+        left:0px;
+        right:0px;
+        bottom:0px;
+        background-color:#c7bbc9
+    }
+    .txtbox
+    {
+        position:absolute;
+        top:10px;
+        left:310px;
+        right:10px;
+        height:50px;
+        background-color:white;
+        color:#83adb5;
+        line-height:50px;
+        padding:10px;
+    }
+    .sidebar
+    {
+        position:absolute;
+        top:0px;
+        left:0px;
+        width:300px;
+        bottom:0px;
+        background-color:#eeeaee;
+    }
+    .sidebar > ui
+    {
+        list-style : none;
+        font-size:30px;
+        position:absolute;
+        top:30px;
+        width:280px;
+        color:#2e4045;
+    }
+    .sidebar > ui > li
+    {
+        padding:15px 10px 15px 30px;
+        width:260px;
+    }
+    .sidebar > ui > li:hover
+    {
+        background-color:white;
+        
+        cursor :pointer;
+    }
+    
+    .context {
+    	
+    	height:90%
+    	position: absolute;
+		font-size: 15px;
+		text-align: center
+    }
