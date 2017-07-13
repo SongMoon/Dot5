@@ -1,1 +1,2 @@
-# dotfive_web
+# DotFive
+This is scheduler application.
